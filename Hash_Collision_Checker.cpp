@@ -1,4 +1,4 @@
-//Hash Collision Finder
+//Hash Collision Checker
 
 #include <iostream>
 #include <string>
