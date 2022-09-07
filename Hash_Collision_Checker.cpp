@@ -1,4 +1,4 @@
-//Hash Collision Checker
+//Hash Collision Finder
 
 #include <iostream>
 #include <string>
@@ -47,6 +47,20 @@ else if (lengthDifference > 0){
         cout << "The secondHash is " << lengthDifference << " character(s) longer.";
     };
     };
+
+void compareMessageSegmants() {
+if (firstHash.length() >= secondHash.length()) {
+    int hashCount = 0;
+for (size_t i = 0; i < firstHash.length(); i++)
+{
+    if (firstHash[i] == secondHash[i]){
+        hashCount += 1;
+    }
+}
+cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index.";
+};
+};
+
 };
 
 int main() {
@@ -54,5 +68,6 @@ int main() {
     newInput.gatherHashes();
     newInput.checkIfIdentical();
     newInput.compareMessageLengths();
+    newInput.compareMessageSegmants();
     return 0;
 };
