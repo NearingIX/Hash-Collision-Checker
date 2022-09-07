@@ -1,2 +1,2 @@
-# Hash-Collision-Finder
-A small script written in C++ used for comparing hashes.
+# Hash-Collision-Checker
+The Hash Collision Checker is used for comparing two hashes to help locate similarities. 
