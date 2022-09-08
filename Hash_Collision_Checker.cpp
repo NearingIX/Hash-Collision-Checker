@@ -50,20 +50,19 @@ else if (lengthDifference > 0){
 
 void compareMessageSegmants() {
 int hashCount = 0;
-if (firstHash.length() >= secondHash.length()) {
-    
+if (firstHash.length() >= secondHash.length()) { 
 for (size_t i = 0; i < firstHash.length(); i++)
 {
     if (firstHash[i] == secondHash[i]){
         hashCount += 1;
-    }
+    };
 };
 } else {
 for (size_t i = 0; i < secondHash.length(); i++)
 {
     if (secondHash[i] == firstHash[i]){
         hashCount += 1;
-    }
+    };
 };
 };
 cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index.";
