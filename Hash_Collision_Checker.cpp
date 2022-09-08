@@ -48,6 +48,7 @@ else if (lengthDifference > 0){
     };
     };
 
+//Write some code to push back the similar segments into a vector
 void compareMessageSegmants() {
 int hashCount = 0;
 if (firstHash.length() >= secondHash.length()) { 
@@ -75,5 +76,6 @@ int main() {
     newInput.checkIfIdentical();
     newInput.compareMessageLengths();
     newInput.compareMessageSegmants();
+    system("pause");
     return 0;
 };
