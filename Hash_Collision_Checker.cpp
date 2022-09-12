@@ -48,7 +48,6 @@ else if (lengthDifference > 0){
     };
     };
 
-//Write some code to push back the similar segments into a vector
 void compareMessageSegmants() {
 int hashCount = 0;
 if (firstHash.length() >= secondHash.length()) { 
@@ -66,7 +65,7 @@ for (size_t i = 0; i < secondHash.length(); i++)
     };
 };
 };
-cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index.";
+cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index." << endl;
 };
 };
 
