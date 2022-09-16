@@ -72,10 +72,9 @@ for (size_t i = 0; i < secondHash.length(); i++)
     };
 };
 };
-cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index." << endl;
+cout << endl << "The two hashes have " << hashCount << " identical character(s) at the same index: ";
 };
 void printMessageVector() {
-cout << "Those characters are: ";
 for (auto i: messageVector) {
             cout << i << ' ';
     };
